@@ -27,7 +27,7 @@ jobs:
 
       - name: Set up DVC
         run: |
-          pip install dvc 
+          pip install dvc dvc-gdrive
           dvc pull 
           ls -lh data/raw  
 
