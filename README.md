@@ -35,8 +35,6 @@ Iris Flower Classification/
 │   ├── train_model.py       # Training script
 │   ├── evaluate_model.py    # Model evaluation metrics
 │   ├── inference.py         # Model inference
-│── app/
-│   ├── main.py              # API endpoint for model prediction
 │── .gitignore
 │── dvc.yaml                 # DVC pipeline
 │── requirements.txt
@@ -100,11 +98,6 @@ python src/evaluate_model.py
 ### 8️⃣ **Run Inference**
 ```bash
 python src/inference.py --input "5.1,3.5,1.4,0.2"
-```
-
-### 9️⃣ **Deploy with FastAPI (Optional)**
-```bash
-uvicorn app.main:app --reload
 ```
 
 ---
