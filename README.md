@@ -134,7 +134,3 @@ For questions, reach out at: [surakiat.0723@gmail.com] or connect on [LinkedIn](
 
 ---
 
-🔹 **Showcasing this project in job applications?** Include a link to this repository in your resume or portfolio!
-
----
-
