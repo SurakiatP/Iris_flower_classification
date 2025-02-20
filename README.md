@@ -58,8 +58,8 @@ The pipeline follows these steps:
 ## ⚡ Quick Start
 ### 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/your-username/iris-classification.git
-cd iris-classification
+git clone https://github.com/SurakiatP/Machine-Learning-Iris_flower_classification.git
+cd Machine-Learning-Iris_flower_classification
 ```
 
 ### 2️⃣ **Set Up Virtual Environment**
