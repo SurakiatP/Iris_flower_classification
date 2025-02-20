@@ -25,12 +25,15 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Set up DVC
+      - name: Set up DVC Credentials
         run: |
-          pip install dvc dvc-gdrive
+          mkdir -p ~/.config/dvc
+          echo "$GDRIVE_CREDENTIALS" > ~/.config/dvc/dvc-ml-project-7d2119dcc754.json
           dvc pull 
           ls -lh data/raw  
-
+        env:
+          GDRIVE_CREDENTIALS: ${{ secrets.GDRIVE_CREDENTIALS }}
+          
       - name: Run ML Pipeline
         run: |
           python src/data_processing.py
